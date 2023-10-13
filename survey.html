@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Survey Form</title>
+    <style type="text/css">
+        body{
+            background-color: #0096FF;
+        }
+        .form-control{
+            margin-bottom: 25px;
+            text-align: left
+        
+        }
+        form{
+            background-color: white;
+            margin: 25px auto;
+            padding: 30px 30px;
+            max-width: 550px;
+        }
+        button{
+            background-color: skyblue;
+            padding: 10px 10px;
+            display: block;
+            width: 25%
+    
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .row .input-group{
+            flex-basis: 48%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Customer Survey Form</h1>
+    <form style="text-align: center;">
+        <fieldset>
+        <div class="row">
+            <div class="form-control">
+                <label style="display: block; margin-bottom: 10px;">Name</label>
+               <input type="text" name="Name" placeholder="Enter Your Name">   
+        </div>
+        
+        <div class="form-control">
+            <label style="display: block; margin-bottom: 10px;">Email</label>
+           <input type="text" name="Name" placeholder="Enter Your Email">   
+        </div>
+        </div>
+
+<div class="form-control">
+    <label style="display: block; margin-bottom: 10px;">Is this your First time using our Proudcts and Services</label>
+   <input type="radio" name="choice">YES  
+   <input type="radio" name="choice">NO
+</div>
+
+<div class="form-control">
+    <label style="display: block; margin-bottom: 10px;">Would you like to suggest your friends and collegues</label>
+   <input type="radio" name="choice">YES  
+   <input type="radio" name="choice">NO
+</div>
+
+<div class="form-control">
+    <label style="display: block; margin-bottom: 10px;">How Satisfied with our company overall</label>
+   <input type="radio" name="choice">Satisfied 
+   <input type="radio" name="choice">Undecided
+   <input type="radio" name="choice">Unsatified
+</div>
+
+<div class="form-control">
+    <label style="display: block; margin-bottom: 10px;">Do you have any suggestions to improve </label>
+   <textarea name="Enter Your Comment" id="" cols="30" rows="05"></textarea>   
+</div>
+<button type="submit">submit</button>
+</fieldset>
+</form>
+<p style="text-align: center;">@ 2018 Customer Survey form. All rights Reserved | Designed by David Raju Gottala</p>
+</body>
+</html>
